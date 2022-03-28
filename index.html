@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>당근마켓</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <div id="header_container">
+
+
+            <div class="header_left">
+
+                <a href="#">
+                    <img src="img/logo.svg" alt="당근마켓">
+                </a>
+
+                <section id="header_search">
+                    <div id="search_container">
+                        <input type="text" placeholder="동네 이름 , 물품명등을 검색해보세요! ">
+                        <button>
+                            <img src="img/search-icon-7008edd4f9aaa32188f55e65258f1c1905d7a9d1a3ca2a07ae809b5535380f14.svg"
+                                alt="">
+                        </button>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="header_right">
+                <div class="download_wrapper">
+                    <label>다운로드
+                        <svg class="menu-icon-svg" width="12" height="7" viewBox="0 0 12 7" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L6 6L11 1" stroke="#4D5159" strokewidth="1.5" strokelinecap="round"
+                                strokelinejoin="round"></path>
+                        </svg>
+                    </label>
+
+                    <ul id="store_menu">
+                        <li><a href="#">
+                                <img src="https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/apple-store-3a664174124650d63cae365bc55586fc5ff27b822b1b97788fc4af77d73d00c8.svg"
+                                    alt="">
+                            </a> <span>App Store</span></li>
+                        <li><a href="#"><img
+                                    src="https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/google-play-c9ad0fc573cd01e2b982df5de6709a3d8d7cec8d9b58a5c08db7da0b92a32a75.svg"
+                                    alt=""></a> <span>Google Store</span></li>
+
+
+                    </ul>
+                    <button id="chat">
+                        <span class="chat_text">당근채팅</span>
+                        <span class="beta_text">Beta</span>
+                    </button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </header>
+
+    <!-- header -->
+
+    <section id="first">
+
+        <div class="flex_center" data-aos="fade-right" data-aos-once:false data-aos-duration="3000">
+            <h1>당신 근처의 <br> 당근마켓</h1>
+            <p>중고 거래부터 동네 정보까지, 이웃과 함께해요. <br>
+                가깝고 따뜻한 당신의 근처를 만들어요.</p>
+        </div>
+        <div class="first_image " data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+            data-aos-duration="1000">
+            <img src="img/image-top-68ba12f0da7b5af9a574ed92ca8b3a9c0068db176b566dd374ee50359693358b.png" alt="">
+        </div>
+
+
+    </section>
+
+
+    <section id="second">
+
+        <div class="second_image" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500"
+            data-aos-duration="3000">
+            <img src="img/image-1-39ac203e8922f615aa3843337871cb654b81269e872494128bf08236157c5f6a.png" alt="">
+        </div>
+        <div class="flex_center" data-aos="fade-up" data-aos-duration="2000">
+            <h1>우리 동네 <br> 중고 직거래 마켓</h1>
+            <p>
+                동네 주민들과 가깝고 따뜻한 거래를 지금 경험해보세요.
+            </p>
+            <div id="Best">
+                <a href="#">인기매물 보기</a>
+                <a href="#">믿을 수 있는 중고거래</a>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+    <section id="third">
+
+
+        <div class="flex_center" data-aos="fade-up" data-aos-duration="1000">
+            <h1>이웃과 함께하는<br>동네생활</h1>
+            <p class="together
+            ">
+                우리 동네의 다양한 이야기를 이웃과 함께 나누어요.
+            </p>
+
+            <div id="item_box">
+                <div id="box">
+                    <div class="icon_01"></div>
+                    <div class="title">우리동네질문</div>
+                    <div class="text">궁금한 게 있을 땐 <br> 이웃에게 물어보세요.</div>
+                </div>
+
+                <div id="box">
+                    <div class="icon_02"></div>
+                    <div class="title">동네분실센터</div>
+                    <div class="text">무언가를 잃어버렸을 때,<br> 함께 찾을 수 있어요.</div>
+                </div>
+
+                <div id="box">
+                    <div class="icon_03"></div>
+                    <div class="title">동네모임</div>
+                    <div class="text">관심사가 비슷한 이웃과 <br> 온오프라인으로 만나요.</div>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="second_image">
+            <img src="img/image-2-f286322ab98acedf914a05bf77e84c67dcb897c8ccb543e66f6afea9d366d06d.png" alt="">
+        </div>
+    </section>
+
+    <section id="fourth">
+        <div class="second_image">
+            <img src="img/image-3-0c8b631ac2294ac5a3b3e7a3a5580c3e68a3303ad2aded1e84aa57a2e1442786.png" alt="">
+        </div>
+
+        <div class="flex_center" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500"
+            data-aos-duration="3000">
+            <h1>내 근처에서 찾는 <br>동네가게</h1>
+            <p>
+                우리 동네 가게를 찾고 있나요? <br>
+                동네 주민이 남긴 진짜 후기를 함께 확인해보세요!
+            </p>
+
+            <div id="Best">
+                <a href="#">당근마켓 동네가게 찾기</a>
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <section id="popular_items" data-aos-once:false data-aos="fade-up" data-aos-duration="1000">
+        <h1>중고거래 인기매물</h1>
+
+        <div class="items_container">
+
+            <div class="items">
+                <div class="items_image"><img src="https://picsum.photos/seed/picsum/300/300
+                " alt=""></div>
+                <div class="items_title"><strong>루이비통 가방</strong></div>
+                <div class="items_price"> <strong>10,000원</strong> </div>
+                <div class="items_address">서울 서대문구 북가좌동</div>
+                <div class="items_info">관심 24
+                    ∙
+                    채팅 15 </div>
+
+
+            </div>
+        </div>
+
+        <a class="view_more" href="#">인기 매물 더 보기</a>
+
+    </section>
+    <!-- section -->
+
+    <div class="popular_keyword">
+        <a href="#">중고거래 인기검색어</a>
+
+
+
+        <ul class="recommend_keyword">
+            <li><a href="#">자전거 </a></li>
+            <li><a href="#"> 캠핑 </a></li>
+            <li><a href="#">패딩 </a></li>
+            <li><a href="#">의자 </a></li>
+            <li><a href="#">냉장고 </a></li>
+            <li><a href="#">노트북 </a></li>
+            <li><a href="#">아이폰 </a></li>
+            <li><a href="#"> 난로 </a></li>
+            <li><a href="#"> 컴퓨터 </a></li>
+            <li><a href="#">
+                    아이패드 </a></li>
+        </ul>
+    </div>
+
+
+
+    <section id="popular_Keyword"></section>
+
+    <footer id="footer">
+
+        <div class="footer_container">
+            <div class="footer_top">
+                <div class="footer_logo"></div>
+                <ul class="footer_list">
+                    <li>믿을 수 있는 중고거래</li>
+                    <li>자주 묻는 질문</li>
+                </ul>
+                <ul class="footer_list">
+                    <li>광고주센터</li>
+                    <li>당근페이</li>
+                    <li>동네가게</li>
+
+                </ul>
+                <ul class="footer_list">
+                    <li>최사 소개</li>
+                    <li>채용</li>
+
+                </ul>
+                <ul class="footer_list">
+                    <li>이용약관</li>
+                    <li>개인정보처리방침</li>
+                    <li>위치기반 서비스 이용약관</li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer_bottom">
+                <p> 고객문의 cs@daangnservice.com 제휴문의 contact@daangn.com</p>
+                <p> 지역광고 ad@daangn.com PR문의 pr@daangn.com</p>
+                <p> 서울특별시 구로구 디지털로30길 28, 609호 (당근서비스)
+                    사업자 등록번호 : 375-87-00088 직업정보제공사업 신고번호 : J1200020200016</p>
+
+
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
